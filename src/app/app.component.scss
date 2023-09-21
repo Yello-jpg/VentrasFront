@@ -1,0 +1,22 @@
+
+
+.global-content {
+    height: 100%;
+}
+
+#side-bar {
+    // --mx: 25px;
+    width: 10%;
+
+    a:first-child {
+        margin-top: 20px;
+    }
+
+    a {
+        // margin: 0 20px 0 20px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        border: 1px solid black;
+    }
+}

@@ -1,0 +1,18 @@
+table{
+    padding: 2rem;
+
+    th,td{
+        text-align: center;
+        color: rebeccapurple;
+    }
+    tr{
+        &:nth-child(2n+1){
+            background-color: rgba(140, 90, 206, 0.055);
+        }
+    }
+}
+
+.cont-buttons-table{
+    display: flex;
+    justify-content: space-around;
+}
